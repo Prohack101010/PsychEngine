@@ -121,6 +121,7 @@ class Controls
 	public var BACK(get, never):Bool;
 	public var PAUSE(get, never):Bool;
 	public var RESET(get, never):Bool;
+	public var DODGE(get, never):Bool;
 
 	private function get_ACCEPT()
 		return justPressed('accept');
@@ -133,6 +134,9 @@ class Controls
 
 	private function get_RESET()
 		return justPressed('reset');
+
+	private function get_DODGE()
+		return justPressed('SPACE');
 
 	// Gamepad, Keyboard & Mobile stuff
 	public var keyboardBinds:Map<String, Array<FlxKey>>;
