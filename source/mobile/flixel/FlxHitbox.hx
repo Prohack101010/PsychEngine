@@ -30,6 +30,7 @@ class FlxHitbox extends FlxSpriteGroup
 		FlxMobileInputID.hitboxDOWN,
 		FlxMobileInputID.hitboxLEFT,
 		FlxMobileInputID.hitboxRIGHT,
+		FlxMobileInputID.hitboxbuttonExtra,
 
 		FlxMobileInputID.noteUP,
 		FlxMobileInputID.noteDOWN,
@@ -286,6 +287,7 @@ class FlxHitbox extends FlxSpriteGroup
 		buttonsMap.set(FlxMobileInputID.hitboxRIGHT, buttonRight);
 		buttonsMap.set(FlxMobileInputID.hitboxLEFT, buttonLeft);
 		buttonsMap.set(FlxMobileInputID.hitboxDOWN, buttonDown);
+		buttonsMap.set(FlxMobileInputID.hitboxbuttonExtra, buttonExtra);
 
 		buttonsMap.set(FlxMobileInputID.noteUP, buttonUp);
 		buttonsMap.set(FlxMobileInputID.noteRIGHT, buttonRight);
