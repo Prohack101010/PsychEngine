@@ -45,6 +45,7 @@ import flixel.system.macros.FlxMacroUtil;
     var hitboxDOWN = 23;
     var hitboxLEFT = 24;
     var hitboxRIGHT = 25;
+    var buttonExtra = 31;
     // PlayState x Controls Releated
     var noteUP = 26;
     var noteDOWN = 27;
