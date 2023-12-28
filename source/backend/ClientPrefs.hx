@@ -131,7 +131,7 @@ class ClientPrefs {
 		'note_left'		=> [FlxMobileInputID.noteLEFT, FlxMobileInputID.LEFT2],
 		'note_down'		=> [FlxMobileInputID.noteDOWN, FlxMobileInputID.DOWN2],
 		'note_right'	=> [FlxMobileInputID.noteRIGHT, FlxMobileInputID.RIGHT2],
-		'dodge'	=> [FlxMobileInputID.DODGE, SPACE],
+		'dodge'	=> [FlxMobileInputID.DODGE, FlxMobileInputID.DODGE],
 
 		'ui_up'			=> [FlxMobileInputID.UP, FlxMobileInputID.noteUP],
 		'ui_left'		=> [FlxMobileInputID.LEFT, FlxMobileInputID.noteLEFT],
