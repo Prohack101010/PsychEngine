@@ -50,6 +50,7 @@ import flixel.system.macros.FlxMacroUtil;
     var noteDOWN = 27;
     var noteLEFT = 28;
     var noteRIGHT = 29;
+    var DODGE = 30;
 
     @:from
 	public static inline function fromString(s:String)
