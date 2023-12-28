@@ -130,8 +130,8 @@ class ClientPrefs {
 		'note_up'		=> [FlxMobileInputID.noteUP, FlxMobileInputID.UP2],
 		'note_left'		=> [FlxMobileInputID.noteLEFT, FlxMobileInputID.LEFT2],
 		'note_down'		=> [FlxMobileInputID.noteDOWN, FlxMobileInputID.DOWN2],
-		'note_right'	=> [FlxMobileInputID.noteRIGHT, FlxMobileInputID.RIGHT2],
-		'dodge'	=> [FlxMobileInputID.DODGE, FlxMobileInputID.DODGE],
+		'note_right'	        => [FlxMobileInputID.noteRIGHT, FlxMobileInputID.RIGHT2],
+		'note_extra'	        => [FlxMobileInputID.buttonExtra],
 
 		'ui_up'			=> [FlxMobileInputID.UP, FlxMobileInputID.noteUP],
 		'ui_left'		=> [FlxMobileInputID.LEFT, FlxMobileInputID.noteLEFT],
