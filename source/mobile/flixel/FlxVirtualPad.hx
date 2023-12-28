@@ -66,7 +66,7 @@ class FlxVirtualPad extends FlxButtonGroup
 		FlxMobileInputID.noteUP,
 		FlxMobileInputID.noteDOWN,
 		FlxMobileInputID.noteLEFT,
-		FlxMobileInputID.noteRIGHT
+		FlxMobileInputID.noteRIGHT,
 		FlxMobileInputID.DODGE
 	];
 
