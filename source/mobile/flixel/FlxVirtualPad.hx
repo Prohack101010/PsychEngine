@@ -37,6 +37,7 @@ class FlxVirtualPad extends FlxButtonGroup
 	public var buttonY:FlxButton = new FlxButton(0, 0);
 	public var buttonZ:FlxButton = new FlxButton(0, 0);
 	public var buttonP:FlxButton = new FlxButton(0, 0);
+	public var buttonDodge:FlxButton = new FlxButton(0, 0);
 
 	public var buttonsMap:Map<FlxMobileInputID, FlxButton> = new Map<FlxMobileInputID, FlxButton>();
 	// kill me -Karim
@@ -66,6 +67,7 @@ class FlxVirtualPad extends FlxButtonGroup
 		FlxMobileInputID.noteDOWN,
 		FlxMobileInputID.noteLEFT,
 		FlxMobileInputID.noteRIGHT
+		FlxMobileInputID.DODGE
 	];
 
 	/**
@@ -265,6 +267,7 @@ class FlxVirtualPad extends FlxButtonGroup
 		buttonY = FlxDestroyUtil.destroy(buttonY);
 		buttonZ = FlxDestroyUtil.destroy(buttonZ);
 		buttonP = FlxDestroyUtil.destroy(buttonP);
+		buttonDodge = FlxDestroyUtil.destroy(buttonDodge);
 	}
 
 	private function createButton(X:Float, Y:Float, Width:Int, Height:Int, Graphic:String, ?Color:Int = 0xFFFFFF):FlxButton
@@ -421,6 +424,7 @@ class FlxVirtualPad extends FlxButtonGroup
 		buttonsMap.set(FlxMobileInputID.Y, buttonY);
 		buttonsMap.set(FlxMobileInputID.Z, buttonZ);
 		buttonsMap.set(FlxMobileInputID.P, buttonP);
+		buttonsMap.set(FlxMobileInputID.DODGE, buttonDodge);
 	}
 }
 
